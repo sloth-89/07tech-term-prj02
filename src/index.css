@@ -7,7 +7,65 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.App {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+}
+
+.header .menu {
+  position: absolute;
+  top: 11px;
+  right: 0;
+}
+
+.header .link {
+  border: 1px solid #333;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #efefef;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.list_day {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list_day li {
+  flex: 20% 0 0;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td {
+  width: 25%;
+  height: 70px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 26px;
+}
+
+table td:first-child {
+  width: 10%;
 }
