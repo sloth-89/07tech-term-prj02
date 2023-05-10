@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<DayList/>}/>
           <Route path='/day/:inputDay' element={<Day/>}/>
+          {/* : 후에 매개변수 키명을 입력하면 그 키값이 붙는다. */}
           <Route path='*' element={<NotFound/>}/>
         </Routes>
 
